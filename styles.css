@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+
+:root {
+    --primary: #F5E050;
+    --width-size: 600px;
+    --black: #5065F5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kalam', cursive;
+    margin: 0;
+}
+#head {
+    background-color: var(--primary);
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Yusei Magic', sans-serif;
+}
+nav p {
+    display: inline;
+    position: relative;
+    bottom: 25px;
+}
+nav #head img {
+    height: 80px;
+    width: 80px;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-size);
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+}
+
+#translate-op {
+    padding: 1rem;
+    font-size: large;
+}
+
+button {
+    background-color: var(--primary);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: inherit;
+    font-size: large;
+}
+
+#op-heading {
+    margin-bottom: 0.5rem;
+}
+
+#translate-op {
+    width: 100%;
+    border: 1px solid black;
+    min-height: 12vh;
+    max-height: 20vh;
+    overflow: scroll;
+}
+footer div {
+    font-size: x-large;
+}
+footer {
+    background-color: var(--black);
+    text-align: center;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding: 1rem;
+}
+footer p {
+    max-width: var(--width-size);
+    margin: auto;
+}
