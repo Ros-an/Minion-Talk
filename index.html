@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minions Talk</title>
+
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="shortcut icon" href="/images/clipart-smile-large-14-transparent.png" type="image/x-icon">
 </head>
+
 <body>
-    
+    <nav>
+        <div id="head">
+            <p>Minion talk</p>
+            <img src="/images/iconfinder_Minion_icon_174006.png" alt="icon">
+        </div>
+    </nav>
+
+    <!-- "main"  represent dominant content of the body-->
+
+    <main>
+        <textarea id="translate-ip"
+            placeholder="Enter your message here which you want to convert to minions language"></textarea>
+        <button id="translate-btn">Translate message</button>
+        <div id="op-heading">Translated message will come here 👇</div>
+
+        <div id="translate-op"></div>
+
+    </main>
+    <footer>
+        <div>About</div>
+        <p>Are you fan of minions? If yes, then did you know that the gibberish they say is an actual language. If you
+            want to know about that language you can use this translator, which converts English to Minion language.
+            Have fun! </p>
+    </footer>
+    <script src="/app.js" type="text/javascript"></script>
 </body>
+
 </html>
