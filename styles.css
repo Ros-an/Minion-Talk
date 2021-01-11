@@ -86,7 +86,7 @@ footer {
     bottom: 0;
     position: fixed;
     width: 100%;
-    padding: 1rem;
+    padding-top: 1rem;
 }
 footer p {
     max-width: var(--width-size);
